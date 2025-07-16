@@ -94,7 +94,7 @@ export default function DPCreator() {
     toughestLevel: { x: 2900, y: 2024, fontSize: 65, maxWidth: 230 },
     memorableMoment: { x: 1637, y: 2300, fontSize: 65, maxWidth: 1600 },
     worstMoment: { x: 1637, y: 2626, fontSize: 65, maxWidth: 1600 },
-    missAboutRectem: { x: 2534, y: 2879, fontSize: 65, maxWidth: 1050 },
+    missAboutRectem: { x: 2534, y: 2879, fontSize: 65, maxWidth: 750 },
     quotesAdvice: { x: 1637, y: 3154, fontSize: 65, maxWidth: 1600},
     ifNotComSci: { x: 2225, y: 3417, fontSize: 65, maxWidth: 3600 },
   })
