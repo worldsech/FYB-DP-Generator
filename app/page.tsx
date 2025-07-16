@@ -78,25 +78,25 @@ export default function DPCreator() {
   const [textPositions, setTextPositions] = useState<TextPositions>({
     // Name, birthday, location - positioned below the frame
     fullName: { x: 705, y: 2879, fontSize: 150, maxWidth: 750 }, // X changed to 705 for centering
-    birthday: { x: 531, y: 3273, fontSize: 150, maxWidth: 1600 },
+    birthday: { x: 531, y: 3273, fontSize: 150, maxWidth: 600 },
     location: { x: 509, y: 3530, fontSize: 153, maxWidth: 500 },
 
     // Form fields - positioned in the blue areas on the right
     nickname: { x: 1900, y: 314, fontSize: 65, maxWidth: 780 },
-    socials: { x: 1876, y: 533, fontSize: 65, maxWidth: 780 },
-    relationshipStatus: { x: 2211, y: 744, fontSize: 65, maxWidth: 480 },
+    socials: { x: 1876, y: 533, fontSize: 65, maxWidth: 1000 },
+    relationshipStatus: { x: 2211, y: 744, fontSize: 65, maxWidth: 1000 },
     favouriteSlang: { x: 2095, y: 953, fontSize: 65, maxWidth: 1600 },
     hobbies: { x: 2133, y: 1165, fontSize: 65, maxWidth: 1600 },
-    favouriteCourse: { x: 2122, y: 1393, fontSize: 65, maxWidth: 480 },
+    favouriteCourse: { x: 2122, y: 1393, fontSize: 65, maxWidth: 1000 },
     favouriteLecturer: { x: 2179, y: 1605, fontSize: 65, maxWidth: 1980 },
-    challengingCourse: { x: 2322, y: 1818, fontSize: 65, maxWidth: 480 },
+    challengingCourse: { x: 2322, y: 1818, fontSize: 65, maxWidth: 1000 },
     bestLevel: { x: 1953, y: 2033, fontSize: 65, maxWidth: 230 },
     toughestLevel: { x: 2900, y: 2024, fontSize: 65, maxWidth: 230 },
     memorableMoment: { x: 1637, y: 2300, fontSize: 65, maxWidth: 1600 },
     worstMoment: { x: 1637, y: 2626, fontSize: 65, maxWidth: 1600 },
-    missAboutRectem: { x: 2534, y: 2879, fontSize: 65, maxWidth: 750 },
+    missAboutRectem: { x: 2534, y: 2879, fontSize: 65, maxWidth: 1050 },
     quotesAdvice: { x: 1637, y: 3154, fontSize: 65, maxWidth: 1600},
-    ifNotComSci: { x: 2225, y: 3417, fontSize: 65, maxWidth: 1600 },
+    ifNotComSci: { x: 2225, y: 3417, fontSize: 65, maxWidth: 3600 },
   })
 
   // Load the new PNG template on component mount
